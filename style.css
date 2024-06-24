@@ -604,6 +604,7 @@ footer {
     margin-left: 280px;
     margin-top: 20px;
     font-size: 36px;
+    cursor: default;
 }
 .logo-1 span{
     color: #FEA700;
@@ -624,8 +625,9 @@ footer {
     cursor: pointer;
     transition: all 0.3s ease;
     padding-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 14px;
+    width: 150px;
 }
 .links-2 ul li a:hover{
     color: #FDA500;
@@ -692,6 +694,27 @@ footer {
 .icons-2 ul li a{
     text-decoration: none;
     color: #fff;
-    padding: 0 10px;
-    font-size: 30px;
+    padding:  12px;
+    font-size: 32px;
+    transition: all 0.3s ease;
 }
+.icons-2 ul li a:hover{
+    color: #FDA500;
+}
+.market{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: default;
+}
+.market span{
+    color: #FEA700;
+}
+.copy-right{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.08);
+}
+
